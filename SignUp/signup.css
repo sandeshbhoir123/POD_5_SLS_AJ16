@@ -1,0 +1,70 @@
+body{
+    background-image: url(./bgimg-signup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    /* font-size: 100px; */
+}
+h2{
+    font-style: italic;
+    margin-left: 80px;
+    font-family:  monospace;
+    text-shadow: 1px 2px yellowgreen;
+
+
+}
+input{
+    font-size: 10px;
+    
+}
+.container{
+    background-color: rgb(221, 233, 153);
+    border-radius: 3px;
+    height: 450px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 300px;
+    padding: 5px 5px;
+    font-size: 10px;
+    margin-left: 400px;
+    border-radius: 10px;
+  }
+  .button{
+      margin-top: 5px;
+      margin-left: 80px;
+  }
+   #submit{
+    border-radius: 5px;
+    box-shadow: 1px 2px black;
+    color: green;
+   }    
+   #cancel{
+    margin-left: 40px;
+    border-radius: 5px;
+    box-shadow: 1px 2px black;
+    color: blue;
+   }
+  .id {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5em;
+  }
+  .id > label {
+    padding: .5em 1em .5em 0;
+    flex: 1;
+  }
+  .id > input {
+    flex: 2;
+  }
+  .id > input,
+  .id > button {
+    padding: .5em;
+  }
+  .id > button {
+   background: gray;
+   color: white;
+   border: 0;
+  }
+ 
+ label{
+     margin-left: 20px;
+ }
